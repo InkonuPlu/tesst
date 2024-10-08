@@ -1,0 +1,205 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 24px;
+}
+
+button {
+    background-color: #ff6347;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e5533d;
+}
+
+.main-content, .categories, .promotions {
+    padding: 20px;
+    text-align: center;
+}
+
+.categories {
+    background-color: #f4f4f4;
+}
+
+.categories h2 {
+    margin-bottom: 20px;
+}
+
+.category {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.products-page {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.products-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product p {
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.products-page img[src ="https://rukminim1.flixcart.com/image/800/800/jwdupow0/dumbbell/u/r/9/hex-dumble-7-5-2-15kg-15-sonico-original-imaf7hekj9sskfqn.jpeg?q=90"] {
+    max-width: 100px;
+    height: auto;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+#a {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#d {
+    padding: 20px;
+}
+
+#e {
+    margin-bottom: 20px;
+}
+
+#f {
+    color:black;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+#g, #h, #i, #j {
+    margin: 10px 0;
+}
+
+#k {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#l {
+    margin: 0;
+}
+/* Basic reset */
+/* Basic reset */
+/* Basic reset */
+/* Basic reset */
